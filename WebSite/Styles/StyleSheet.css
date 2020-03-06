@@ -1,0 +1,404 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.landing-page
+{
+    padding: 25px;
+    background: url(/WebSite/Images/bg4.jpg);
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+}
+
+.top-container
+{
+    margin:25px;
+    display: inline-block;
+    width: 95%;
+    height: auto;
+    max-width: 100%;
+}
+
+h1
+{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: #fd3753;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+nav
+{
+    display:inline-block;  
+    float:right;
+    padding-top:16px;
+}
+
+ul
+{
+    display: inline-block;
+}
+
+li
+{
+    text-decoration: none;
+    display: inline-block;
+    padding:0px 5px;
+}
+
+a
+{
+    text-decoration: none; 
+    font-family: 'Belgrano', serif;
+    color:White;   
+}
+
+
+
+#sign-up
+{
+    background-color: #fd3753;
+    padding: 6px;
+    border-radius: 5px; 
+    margin-left: 8px;      
+}
+.mid-container
+{
+    text-align: center;
+    margin-top: 150px;    
+}
+.category{
+
+}
+
+.btn{
+    width: 125px;
+    height: 36px;
+    padding: 6px 12px;
+    background-color: white;
+    border-width: 0.5px;
+    border-radius: 4px 4px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: #000;
+    cursor: pointer;
+    
+}
+.search{
+    width: 380px;
+    height: 51px;
+    border-radius: 7px;
+    border-color: #fd3753;
+    background-color: #fff;
+    color: #272727;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+#src{
+    border: 0px;
+    width: 110px;
+    height: 40px;
+    background-color: #fd3753;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: unset;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+.buy
+{
+    height:600px;
+    margin-top: 100px;
+    padding-top: 100px;  
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    width: 40%;
+    margin: 0px 35px;
+    top: 5px;
+    display: inline-block;
+}
+
+.mySlides {display: none}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+img 
+{
+	vertical-align: middle;
+    width:100%;
+    height:250px;
+    border-radius:20px;
+}
+
+.content
+{
+    padding: 10px 0px;    
+}
+
+.title
+{
+    color: #032d3c;
+    font-size: 2.5rem;
+    font-weight: unset;
+    text-align: inherit;   
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: unset;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    color: #232020; 
+}
+
+button
+{
+    border: 0;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: unset;
+    height: 2rem;
+    background: #60a9a6;
+    color: #fff;
+    font-family: 'Montserrat';
+    border-radius: 2px 15px;
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top:50px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.buy-content
+{
+    display: inline-block;
+    position: absolute;
+    margin: 34px 10px;    
+}
+
+h3
+{
+    padding-bottom: 8px;
+    text-align: -webkit-center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: unset;
+    color: #032d3c;
+    font-size: 1.4rem;
+}
+
+h2
+{
+    text-align: -webkit-center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: unset;
+    color: #032d3c; 
+}
+
+.description
+{
+    padding-top: 50px;
+    width: 600px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: unset;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.sell
+{
+    height: 600px;
+    margin-top: 100px;
+    padding-top: 100px;    
+}
+
+.sell-content
+{
+    display: inline-block;
+    position: absolute;
+    margin: 50px 35px;
+    width: auto;
+}
+
+.sell-mySlides
+{
+    display: none   
+}
+
+.sell-dot
+{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top:50px;   
+}
+
+.active, .sell-dot:hover {
+  background-color: #717171;
+}
+
+#sell-container
+{
+    float:right;      
+}
+
+sell-description
+{
+    width: 550px;    
+}
+
+.rent
+{
+    height: 600px;
+    margin-top: 100px;
+    padding-top: 100px;     
+}
+
+.rentmySlides
+{
+    display:none;    
+}
+
+.rentdot
+{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top:50px;     
+}
+
+.active, .rentdot:hover {
+  background-color: #717171;
+}
+
+#abt-content
+{
+    width:80%;
+    margin:auto;    
+}
+
+.footer-container
+{
+    background-color:#b8b2a6;
+    text-align:center;
+    font-size:1rem;    
+}
+
+#footer
+{
+  color:#f7f7f7;
+  padding-top:8px;
+}

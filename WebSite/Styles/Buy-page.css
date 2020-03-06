@@ -1,0 +1,99 @@
+﻿*
+{
+    padding:0;
+    margin:0;    
+}
+
+body
+{
+    background: #fffdf9;    
+}
+
+.buy-img
+{
+    display: inline-block;
+    width: 50%;
+    margin: 20px 35px;
+}
+
+.big-img
+{
+     display:block;
+     width:95%;
+     border-radius: 8px;   
+}
+
+.small-img
+{
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    height: 138px;
+    width: 30%;
+    border-radius: 4px;
+}
+
+.buy-content
+{
+    display: inline-block;
+    width: 42%;
+    position: relative;
+    bottom: 12px;
+    left: 10px;    
+}
+
+h1
+{
+    color: #032d3c;
+    font-size: 3.2rem;
+    font-weight: unset;
+    text-align: inherit;
+    font-family: 'Raleway', sans-serif;   
+}
+
+h5
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: unset;    
+}
+
+h2
+{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: unset;
+    color: #032d3c; 
+    padding-top: 8px;   
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: unset;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 0.6px;    
+}
+
+.item-contain
+{
+    display: inline-block; 
+    width:32%;   
+}
+
+button
+{
+    border: 0;
+    width: 9rem;
+    font-size: 1rem;
+    font-weight: unset;
+    height: 2rem;
+    background: #60a9a6;
+    color: #fff;
+    font-family: 'Montserrat';
+    border-radius: 2px 15px;
+    cursor: pointer; 
+    margin-top:20px;   
+}
